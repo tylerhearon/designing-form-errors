@@ -10,7 +10,7 @@ html {
 .is-validated input[type="checkbox"]:invalid + label::before,
 .is-validated:invalid,
 .is-validated[type="checkbox"]:invalid + label::before {
-  border-color:#f33;
+  border-color: #f33;
 }
 
 .error-message {
@@ -28,6 +28,6 @@ html {
 .is-validated input:invalid + .error-message,
 .is-validated input:invalid + label + .error-message,
 .is-validated:invalid + .error-message,
-.is-validated:invalid + label + .error-message  {
+.is-validated:invalid + label + .error-message {
   display: block;
 }
